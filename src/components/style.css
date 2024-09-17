@@ -183,10 +183,24 @@ body {
   margin-bottom: 50px;
 }
 
-.wrap {
+/*Resize the wrap to see the search bar change!*/
+/* .wrap {
   width: 30%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+} */
+/* Add styling for temperature range next to city name */
+/* Temperature range next to city name */
+.widget .weatherInfo .description .temperature-range {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.widget .weatherInfo .description .temperature-range i {
+  font-size: 20px;
+  margin-right: 5px;
 }
